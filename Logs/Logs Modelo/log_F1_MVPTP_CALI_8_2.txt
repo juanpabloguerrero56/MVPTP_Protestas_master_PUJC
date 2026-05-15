@@ -1,0 +1,43 @@
+
+Gurobi 12.0.3 (win64) logging started Thu Mar 19 11:49:45 2026
+
+Set parameter LogFile to value "Logs\log_F1_MVPTP_CALI_8_2.txt"
+Set parameter OutputFlag to value 1
+Set parameter InfUnbdInfo to value 1
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (win64 - Windows 11+.0 (26200.2))
+
+CPU model: AMD Ryzen 9 9900X 12-Core Processor, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 12 physical cores, 24 logical processors, using up to 24 threads
+
+Non-default parameters:
+TimeLimit  300
+DisplayInterval  1
+InfUnbdInfo  1
+
+Optimize a model with 2403 rows, 1770 columns and 20322 nonzeros
+Model fingerprint: 0x3f995909
+Variable types: 178 continuous, 1592 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [9e-02, 1e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 4e+01]
+Presolve removed 352 rows and 156 columns
+Presolve time: 0.03s
+Presolved: 2051 rows, 1614 columns, 21667 nonzeros
+Variable types: 176 continuous, 1438 integer (1438 binary)
+
+Root relaxation: objective 1.000000e+00, 658 iterations, 0.01 seconds (0.02 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0       1.0000000    1.00000  0.00%     -    0s
+
+Explored 1 nodes (2160 simplex iterations) in 0.06 seconds (0.15 work units)
+Thread count was 24 (of 24 available processors)
+
+Solution count 1: 1 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.000000000000e+00, best bound 1.000000000000e+00, gap 0.0000%
